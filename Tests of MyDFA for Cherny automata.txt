@@ -1,0 +1,8 @@
+Tests of MyDFA for Cherny automata:
+
+Number of states   Work time
+100                0.077 sec
+200                0.557 sec
+300                9.575 sec  
+400               50.614 sec 
+500              195.600 sec   

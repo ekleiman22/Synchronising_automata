@@ -1,0 +1,31 @@
+﻿Format 1
+Example:
+# a b
+0 1 1
+1 1 2
+2 2 3
+3 3 0
+This example contains definition of Cherny automaton C4.
+The first row of this matrix A must begin from # and contains letters of transitions
+In all consequent rows:
+A[i,0] is a number of i-th state beginning from 0. 
+A[i,j] = (i-th state).(j-th letter)
+---------------------------------------------
+Format 2
+Example:
+5 10 2
+1 1 1
+1 2 0
+2 5 1
+2 3 0
+3 4 1
+3 4 0
+4 4 1
+4 3 0
+5 5 1
+5 5 0
+The first row: (Number of states) (Number of transitions) (Alphabet size)
+All subsequent rows:
+(From state) (To state) (Letter index) //transition description
+
+
